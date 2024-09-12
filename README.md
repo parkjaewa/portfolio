@@ -1,4 +1,4 @@
-[포트폴리오 사이트 바로가기](https://github.com/parkjaewa/portfolio)
+[포트폴리오 사이트 바로가기](https://portfolio-wodhks4235.vercel.app/)
 
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:007bff,100:b4dafe&height=180&text=안녕하세요&animation=scaleIn&fontColor=ffffff&fontSize=60" />
