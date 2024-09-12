@@ -1,157 +1,149 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: sans-serif;
-   }
-   
-   html,
-   body {
-    scroll-behavior: smooth;
-   }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+ }
 
-   .wrap {
-    width: 100%;
-    margin: 0 auto;
+ html,
+ body {
+  scroll-behavior: smooth;
+ }
 
-   }
-   .header {
-    position: fixed;
-    z-index: 1;
-   }
-   
-   section {
-    position: relative;
-    background-color: #eee;
-    width: 100%;
-   }
+ .wrap {
+  width: 100%;
+  margin: 0 auto;
 
-   section span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   }
-   
+ }
+ .header {
+  position: fixed;
+  z-index: 1;
+ }
+
+ section {
+  position: relative;
+  background-color: #eee;
+  width: 100%;
+ }
+
+ section span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
 
 .header {
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-    background-color: #304C7A;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  background-color: #304C7A;
 }
 
 .header span {
-    font-size: 30px;
-    color: #fff;
-    font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
 }
 
 .navi { 
-    display: flex;
+  display: flex;
 }
 
 .navi li a {
-    margin: 25px;
-    list-style: none;
-    font-size: 20px;
-    color: #fff;
+  margin: 25px;
+  list-style: none;
+  font-size: 20px;
+  color: #fff;
 } 
-  
-  .feature {
-    margin-top: 15px;
-    font-size: 20px;
-  }
 
-  .feature-ver {
-    color: #304C7A;
-    padding-top: 50px;
-  }
-  
-  .home-wrap {
-    padding-top: 100px;
-  }
+.feature {
+  margin-top: 15px;
+  font-size: 20px;
+}
 
-  .title {
-    width: auto;
-    font-weight: 600;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    margin: 20px 20px 0px 20px;
-  }
-  
-  .image {
-    margin-top: 40px;
-    width: 400px;
-    height: 400px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.feature-ver {
+  color: #304C7A;
+  padding-top: 50px;
+}
 
-  .Programs {
-    margin-bottom: 40px;
-    font-size: 35px;
-    padding-top: 50px;
-    border-bottom: 1px solid #000;
-    width: 450px;
-    height: 105px;
-    text-align: center;
-    margin: auto;
-  }
+.home-wrap {
+  padding-top: 100px;
+}
 
-  .images {
-    width: 60px;
-    height: 60px;
-    margin-top: 30px;
-  }
+.title {
+  width: auto;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 20px 20px 0px 20px;
+}
 
-  .portfolio-wrap {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 140px;
-  }
+.image {
+  margin-top: 40px;
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  .card {
-    width: 325px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    height: 400px;
-  }
+.Programs {
+  margin-bottom: 40px;
+  font-size: 35px;
+  padding-top: 50px;
+  border-bottom: 1px solid #000;
+  width: 450px;
+  height: 105px;
+  text-align: center;
+  margin: auto;
+}
 
-  .card img {
-    width: 100%;
-    height: auto;
-  }
+.images {
+  width: 60px;
+  height: 60px;
+  margin-top: 30px;
+}
 
-  .card-content {
-    padding: 16px;
-  }
+.portfolio-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 140px;
+}
 
-  .card-content h3 {
-    font-size: 28px;
-    margin-bottom: 14px;
-  }
+.card {
+  width: 325px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  height: 400px;
+}
 
-  .card-content p {
-    color: #666;
-    font-size: 15px;
-    line-height: 2;
-  }
+.card img {
+  width: 100%;
+  height: auto;
+}
 
+.card-content {
+  padding: 16px;
+}
 
+.card-content h3 {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
 
-
-
-
-
-
+.card-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 2;
+}
